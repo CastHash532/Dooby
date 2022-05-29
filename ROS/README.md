@@ -2,11 +2,12 @@
 
 
 ### install docker on rasp  
-please refer to [https://dev.to/elalemanyo/how-to-install-docker-and-docker-compose-on-raspberry-pi-1mo](this blog)
+please refer to [this blog](https://dev.to/elalemanyo/how-to-install-docker-and-docker-compose-on-raspberry-pi-1mo)
 ## How to run
   
-first, delete old vpn adresses on https://app.husarnet.com/  
-creds : gm_sahraoui@esi.dz / dooby1234 
+First, create an account on https://app.husarnet.com/  
+get husarnet join code and add it to .env
+
 ### start developement node :
 ```
 cd Dooby-car/ROS/dev-node
@@ -26,7 +27,6 @@ cd Dooby-car/ROS/pi-node
 docker-compose up --build
 ```
 the rasp node runs dooby interface packages  
-for developing restart docker-compose stack to rebuild
 
 ### server node :
 ```
