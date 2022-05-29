@@ -1,0 +1,2 @@
+sly==0.4
+sshkeyboard==2.3.1
